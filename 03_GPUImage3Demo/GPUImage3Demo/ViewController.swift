@@ -6,7 +6,7 @@
 //  Copyright © 2020 KentSun. All rights reserved.
 //
 
-// GPUImage3（一）集成与使用
+// GPUImage3 集成与使用
 import UIKit
 
 import GPUImage
@@ -21,8 +21,8 @@ class ViewController: UIViewController {
     lazy var imageView: UIImageView = {
        
         let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height))
-//        imageView.image = UIImage(contentsOfFile: Bundle.main.path(forResource: "Yui", ofType: "jpg")!)
-        imageView.image = UIImage(named: "Yui")
+//        imageView.image = UIImage(contentsOfFile: Bundle.main.path(forResource: "test", ofType: "jpeg")!)
+        imageView.image = UIImage(named: "test")
         imageView.contentMode = .scaleAspectFit
         
         return imageView
